@@ -1,0 +1,129 @@
+/* General Styling */
+body {
+  background: url('b2.webp') no-repeat center center fixed; /* Background image */
+  background-size: cover; /* Ensures the image covers the entire screen */
+  color: #333333;
+  font-family: 'Arial', sans-serif; /* Clean, modern font */
+  margin-top: 5rem;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2c3e50; /* A darker shade for headings */
+  margin-bottom: 1rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; /* Cleaner lists */
+}
+
+/* Header and Navigation */
+.site-header {
+  background-color: rgba(52, 73, 94, 0.9); /* Semi-transparent modern dark blue */
+  padding: 15px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #cbd5db;
+  padding: 8px 15px;
+  transition: all 0.3s ease-in-out; /* Smooth transitions */
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+  background: #5f788a;
+  border-radius: 4px; /* Rounded hover effect */
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Section Styling */
+.content-section {
+  background: rgba(255, 255, 255, 0.9); /* Slightly transparent white for better visibility */
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+}
+
+.bg-steel {
+  background-color: #5f788a;
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+/* Article Styling */
+.article-title {
+  color: #34495e;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+a.article-title:hover {
+  color: #3498db;
+  text-decoration: underline; /* Better emphasis on hover */
+}
+
+.article-content {
+  white-space: pre-line;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+  border-radius: 50%; /* Circular image */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+.article-metadata {
+  padding-bottom: 5px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #e3e3e3;
+  color: #7f8c8d; /* Softer text for metadata */
+  font-size: 0.9rem;
+}
+
+.article-metadata a {
+  color: #7f8c8d;
+  text-decoration: none;
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: underline; /* Subtle hover effect */
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+/* Account Section */
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+  border-radius: 50%; /* Circular profile image */
+  object-fit: cover;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.account-heading {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
